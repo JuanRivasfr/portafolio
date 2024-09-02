@@ -7,11 +7,13 @@ function App() {
     <>
       <section id='section-presentacion'>
         <div id='container-titulo-descripcion'>
+          <div id='container-about'>
+            <h1>About Me</h1>
+            <p>Hi! I'm <span> Juan Rivas </span></p>
+          </div>
           <div id='container-img-user'>
             <img src="/user.jpeg" alt="" />
           </div>
-          <h1>Juan Rivas WebDev</h1>
-          <small>HTML·CSS·JAVASCRIPT·MONGODB·EXPRESS·NODEJS</small>
         </div>
       </section>
       <section>
