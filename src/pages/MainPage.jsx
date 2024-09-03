@@ -223,11 +223,20 @@ function MainPage() {
                 <div id="div-projects">
                     <div className="project">
                         <div className="project-inner">
-                            <div className="project-front">
-                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            <div className="project-front" id="Encripter">
                             </div>
                             <div className="project-back">
-                                <Skill value={50} text="Node.js" />
+                                <p>Encryptor Project</p>
+                                <p>Project involves a simple app where users can 
+                                    send a message, which gets encrypted on the 
+                                    server using Node.js, Express, and JavaScript. 
+                                    The front end, built with React, HTML, and CSS, 
+                                    allows users to submit and later decrypt their 
+                                    messages.
+                                </p>
+                                <button>
+                                    Open in GitHub
+                                </button>
                             </div>
                         </div>
                     </div>

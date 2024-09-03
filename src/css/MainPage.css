@@ -223,7 +223,7 @@ li{
 }
 
 .project{
-    width: 250px;
+    width: 500px;
     height: 250px;
     perspective: 1000px; 
     position: relative;
@@ -255,6 +255,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .project-front {
@@ -267,5 +268,26 @@ li{
     background-color: #ffffff; 
     border-radius: 10px;
     transform: rotateY(180deg);
+    color: #242424;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
 }
+
+.project-back p:nth-child(1) {
+
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+
+#imgEncripter{
+    width: 500px;
+}
+
+#Encripter{
+    background-image: url(/encripter.png);
+    background-position: center;
+    background-size: cover;
+}
+
