@@ -35,7 +35,7 @@
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1); /* Ajusta el valor para determinar cuánto se agranda */
+        transform: scale(1.1); 
     }
     100% {
         transform: scale(1.1);
@@ -64,30 +64,13 @@
 
 #container-about{
     border: 1px solid white;
+    width: 30%;
 }
 
-#container-about h1{
-    font-size: 20px;
-    text-align: center;
-}
-
-/* #section-presentacion h1 {
-    font-size: 300%;
-    overflow: hidden;
-    border-right: .15em solid rgba(255, 255, 255, 0.87);
-    white-space: nowrap;
-    margin: 0 auto;
-    animation: typing 2.5s steps(28, end), blink-caret .75s step-end infinite;
-}
-
-#section-presentacion small {
-    color: #4682B4;
-    font-size: 14px;
-} */
 
 #container-img-user{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
 
@@ -102,3 +85,27 @@
 #container-img-user:hover {
     animation: grow 2s ease-in-out forwards;
 }
+
+#h1-aboutme{
+    font-size: 40px;
+    text-align: center;
+}
+
+#p-h1{
+    overflow: hidden;
+    border: 1px solid red;
+    width: 150px;
+}
+
+#span-nombre{
+    overflow: hidden;
+    border-right: .15em solid #007BFF;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: typing 3.5s steps(30, end), blink-caret .75s step-end infinite;
+    padding: 0; 
+    display: flex;
+    width: 30px;
+    border: 1px solid white;
+}
+
