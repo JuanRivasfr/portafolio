@@ -64,6 +64,7 @@ function MainPage() {
                         <li><a href="#section-aboutme">ABOUT</a></li>
                         <li><a href="#section-skills">SKILLS</a></li>
                         <li><a href="#section-softskills">SOFT SKILLS</a></li>
+                        <li><a href="#section-projects">PROJECTS</a></li>
                     </ul>
                 </nav>
             </header>
@@ -212,6 +213,41 @@ function MainPage() {
                             </div>
                             <div className="skill-back">
                                 <SoftSkill value={60} text="DECISION" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-projects">
+            <h1>PROJECTS</h1>
+                <div id="div-projects">
+                    <div className="project">
+                        <div className="project-inner">
+                            <div className="project-front">
+                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            </div>
+                            <div className="project-back">
+                                <Skill value={50} text="Node.js" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project">
+                        <div className="project-inner">
+                            <div className="project-front">
+                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            </div>
+                            <div className="project-back">
+                                <Skill value={50} text="Node.js" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="project">
+                        <div className="project-inner">
+                            <div className="project-front">
+                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            </div>
+                            <div className="project-back">
+                                <Skill value={50} text="Node.js" />
                             </div>
                         </div>
                     </div>
