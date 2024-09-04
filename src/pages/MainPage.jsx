@@ -44,7 +44,7 @@ function MainPage() {
                             fill: '#242424',
                             fontSize: '13px',
                             fontWeight: 'bolder',
-                            whiteSpace: 'pre-line', 
+                            whiteSpace: 'pre-line',
                             textAlign: 'center',
                         },
                         trail: {
@@ -219,7 +219,7 @@ function MainPage() {
                 </div>
             </section>
             <section id="section-projects">
-            <h1>PROJECTS</h1>
+                <h1>PROJECTS</h1>
                 <div id="div-projects">
                     <div className="project">
                         <div className="project-inner">
@@ -227,36 +227,65 @@ function MainPage() {
                             </div>
                             <div className="project-back">
                                 <p>Encryptor Project</p>
-                                <p>Project involves a simple app where users can 
-                                    send a message, which gets encrypted on the 
-                                    server using Node.js, Express, and JavaScript. 
-                                    The front end, built with React, HTML, and CSS, 
-                                    allows users to submit and later decrypt their 
+                                <p>Project involves a simple app where users can
+                                    send a message, which gets encrypted on the
+                                    server using Node.js, Express, and JavaScript.
+                                    The front end, built with React, HTML, and CSS,
+                                    allows users to submit and later decrypt their
                                     messages.
                                 </p>
-                                <button>
-                                    Open in GitHub
-                                </button>
+                                <a href="https://github.com/JuanRivasfr/examenEncriptador">
+                                    <button>
+                                        Open On GitHub
+                                    </button>
+                                </a>
+
                             </div>
                         </div>
                     </div>
                     <div className="project">
                         <div className="project-inner">
-                            <div className="project-front">
-                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            <div className="project-front" id="foodlover">
                             </div>
                             <div className="project-back">
-                                <Skill value={50} text="Node.js" />
+                                <p>Basic Frontend Project</p>
+                                <p>This is a basic responsive project developed using HTML
+                                    and CSS. It focuses solely on the presentation
+                                    layer, without implementing any functionalities.
+                                    The project demonstrates the front-end design
+                                    and layout, showcasing the visual aspects
+                                    without interactive elements or backend
+                                    integration.
+                                </p>
+                                <a href="https://github.com/JuanRivasfr/foodLover">
+                                    <button>
+                                        Open On GitHub
+                                    </button>
+                                </a>
+
                             </div>
                         </div>
                     </div>
                     <div className="project">
                         <div className="project-inner">
-                            <div className="project-front">
-                                <img src="/nodeLogo.png" alt="Node.js" id="imgNode" />
+                            <div className="project-front" id="cinema">
                             </div>
                             <div className="project-back">
-                                <Skill value={50} text="Node.js" />
+                                <p>Cinema Project</p>
+                                <p>A full-stack project developed from scratch
+                                    for managing a cinema and handling seat
+                                    reservations. The project utilizes web components
+                                    and involves creating APIs with Express,
+                                    Node.js, and JavaScript. On the front-end,
+                                    APIs are consumed using React, HTML, CSS, and
+                                    JavaScript.
+                                </p>
+                                <a href="https://github.com/JuanRivasfr/proyectoMongoII">
+                                    <button>
+                                        Open On GitHub
+                                    </button>
+                                </a>
+
                             </div>
                         </div>
                     </div>

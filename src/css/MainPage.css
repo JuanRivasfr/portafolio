@@ -1,3 +1,17 @@
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -278,7 +292,14 @@ li{
 
     font-size: 25px;
     font-weight: bolder;
+    line-height: 0;
+}
 
+.project-back p:nth-child(2) {
+    width: 60%;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: justify;
 }
 
 #imgEncripter{
@@ -291,3 +312,18 @@ li{
     background-size: cover;
 }
 
+.project-back button:hover {
+    animation: grow 2s ease-in-out forwards;
+    cursor: pointer;
+}
+
+#foodlover{
+    background-image: url(/foodLover.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#cinema{
+    background-image: url(/cinema.png);
+    background-size: cover;
+}

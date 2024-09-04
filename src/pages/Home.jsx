@@ -32,7 +32,7 @@ function Home() {
                         <p id='p-h1'>Welcome to my portfolio </p>
                     </div>
                     <div id='container-img-user'>
-                        <img src="/user.jpeg" alt="" />
+                        <img src="/user.png" alt="" />
                     </div>
                 </div>
                 <button id='button-lets' onClick={handleClick}>Let's start the adventure {Rocket01Icon()}</button>
